@@ -48,5 +48,5 @@ If you want to use EGPU, you can only use macOS High Sierra and below,and then c
 * [Nvidia WebDriver Download](https://www.tonymacx86.com/nvidia-drivers/)
 
 ## 联系我 & Contact me
-__如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件joensbak@outlok.com__  
+__如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件joensbak@outlook.com__  
 __If you have problems, contact me with jonesbak@outlook.com__
