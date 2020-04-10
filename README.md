@@ -26,8 +26,9 @@ for installing macOS,you may need to press the "o" key after entering the clover
 that you can get detailed error information.
 
 # Graphics GPU
-The Nvidia GPU is not supported due to hardware differences and lack of driver support in the new version macOS. It is
-disabled to save power.
+The Nvidia GPU is not supported due to hardware differences and lack of driver support in the new version macOS. 
+
+It is disabled in this configuration to save power.
 
 As far as we know, NVIDIA graphics cards do not have drivers to support them on macOS Catalina & Mojave, so you can only
 use IGPU on these systems. If you want to use EGPU, you can only use macOS High Sierra and below,and then configure NVIDIA Webdriver.
