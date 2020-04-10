@@ -21,3 +21,8 @@ Display	 | AUO TN 1080P
 TouchPad | ELAN 1000
 Sound	   | Conexant 20751/2
 
+This project includes clover(r5109).I set the clover to wait for 1 second before booting automatically. If you want to use it
+for installing macOS,you may need to press the "o" key after entering the clover interface,and then add "-v" in boot args so
+that you can get detailed error information.
+
+##Graphics IGPU
