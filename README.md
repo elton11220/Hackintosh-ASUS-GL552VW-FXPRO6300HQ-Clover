@@ -6,7 +6,7 @@ This can help you run macOS High Sierra & Mojave & Catalina(10.15.3 maximum)perf
 You can also use it to run macOS 10.15.4 or higher future version,but the sound card driver may not work on these versions.
 
 ## 联系我 & Contact me
-__如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件joensbak@outlook.com__  
+__如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件joensbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton__  
 __If you have problems, contact me with jonesbak@outlook.com__
 
 ## Here is my configuration of my laptop
