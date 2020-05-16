@@ -9,7 +9,7 @@ You can also use it to run macOS 10.15.4 or higher future version,but the sound 
 __如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件jonesbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton__  
 __If you have problems, contact me with jonesbak@outlook.com__
 
-# 关于转载 & About repost  
+## 关于转载 & About repost  
 该项目仅供技术交流，请勿用于商业用途，转载请注明来源及原作者，请尊重我的劳动，谢谢！  
 This project is only for technical communicating, please do not use it for commercial purposes, please indicate the source and original author for reprint, please respect my labor, thank you!
 
@@ -43,6 +43,8 @@ press the "o" key after entering the clover interface,and then add "-v" in boot 
 
 * [Nvidia WebDriver 下载](https://www.tonymacx86.com/Nvidia-drivers/)
 
+注意：你可以尝试驱动GTX960m显卡，但是据我所知，clover不支持这款显卡的Optimus技术，所以未必有用  
+
 -----------------------------------------------------------------------------------
 
 The Nvidia GPU is not supported because of hardware differences and lack of driver support in the new version macOS.   
@@ -53,3 +55,5 @@ use IGPU on these systems.
 If you want to use EGPU, you can only use macOS High Sierra and below,and then configure NVIDIA Webdriver.
 
 * [Nvidia WebDriver Download](https://www.tonymacx86.com/nvidia-drivers/)
+
+Note: You can try to drive the GTX960m graphics card, but as far as I know, clover does not support Optimus technology for this graphics card, so it may not work
