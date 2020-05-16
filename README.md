@@ -57,3 +57,8 @@ If you want to use EGPU, you can only use macOS High Sierra and below,and then c
 * [Nvidia WebDriver Download](https://www.tonymacx86.com/nvidia-drivers/)
 
 Note: You can try to drive the GTX960m graphics card, but as far as I know, clover does not support Optimus technology for this graphics card, so it may not work
+
+## 声卡问题 & Sound card issues
+经过我多次研究发现，有时系统会检测不到声卡可能是由于Windows没有关闭快速启动造成的，Windows没有关闭快速启动的情况下进行软重启，就会造成macOS检测不到声卡  
+
+After many tests, I found that sometimes the system cannot detect the sound card, which may because of the fastboot is not off in windows. If you soft-restart the system when fastboot is not off, the sound card may not be detected
