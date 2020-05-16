@@ -9,7 +9,7 @@ You can also use it to run macOS 10.15.4 or higher future version,but the sound 
 __如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件jonesbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton__  
 __If you have problems, contact me with jonesbak@outlook.com__
 
-#关于转载 & About repost  
+# 关于转载 & About repost  
 该项目仅供技术交流，请勿用于商业用途，转载请注明来源及原作者，请尊重我的劳动，谢谢！  
 This project is only for technical communicating, please do not use it for commercial purposes, please indicate the source and original author for reprint, please respect my labor, thank you!
 
