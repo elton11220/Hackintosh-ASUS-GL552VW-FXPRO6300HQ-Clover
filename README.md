@@ -15,6 +15,8 @@ This project is only for technical communicating, please do not use it for comme
 
 ## 电脑配置 & The configuration of my laptop
 
+Hardware | Detail
+---------|----------
 CPU      | Intel Core i5-6300HQ
 IGPU     | HD530
 EGPU     | Nvidia Geforce GTX960M(4G)
