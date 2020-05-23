@@ -1,6 +1,6 @@
 # Hackintosh-ASUS-Flying-fortress-FXPRO-GL552VW
 这可以帮助您完美地运行macOS High Sierra & Mojave & Catalina（最高10.15.4）  
-您也可以使用它运行macOS 10.15.4或更高版本
+您也可以使用它运行macOS 10.15.4或更高版本,感谢某大神的技术指导
 
 This can help you run macOS High Sierra & Mojave & Catalina(10.15.4 maximum)perfectly.  
 You can also use it to run macOS 10.15.4 or higher future version,but the sound card driver may not work on these versions.
@@ -13,10 +13,8 @@ __If you have problems, contact me with jonesbak@outlook.com__
 该项目仅供技术交流，请勿用于商业用途，转载请注明来源及原作者，请尊重我的劳动，谢谢！  
 This project is only for technical communicating, please do not use it for commercial purposes, please indicate the source and original author for reprint, please respect my labor, thank you!
 
-## Here is my configuration of my laptop
+## 电脑配置 & The configuration of my laptop
 
-Hardware | Detail 
----------| -------
 CPU      | Intel Core i5-6300HQ
 IGPU     | HD530
 EGPU     | Nvidia Geforce GTX960M(4G)
@@ -25,7 +23,7 @@ SSD      | SAMSUNG MZNLF128HCHP-00004
 RAM      | SK HYNIX 8G*1 2133MHz
 Display	 | AUO TN 1080P
 TouchPad | ELAN 1000
-Sound	   | Conexant 20751/2
+Sound    | Conexant 20751/2
 
 该项目包括Clover 5117版本（支持macOS Catalina）  
 我将启动等待时间设置成了2秒，如果你想用这个配置来安装macOS，你可能需要进入clover界面后，按“o”键，然后在boot-args中添加“-v”，这样你就可以获得详细的错误信息
@@ -59,6 +57,6 @@ If you want to use EGPU, you can only use macOS High Sierra and below,and then c
 Note: You can try to drive the GTX960m graphics card, but as far as I know, clover does not support Optimus technology for this graphics card, so it may not work
 
 ## 声卡问题 & Sound card issues
-经过我多次研究发现，有时系统会检测不到声卡可能是由于Windows没有关闭快速启动造成的，Windows没有关闭快速启动的情况下进行软重启，就会造成macOS检测不到声卡  
+经过我多次研究发现，重启后可能出现声卡失效的问题是由于Windows系统重新驱动时不能重置HDA导致的，目前无解，等我有空会发布该机型的opencore引导即可解决该问题  
 
-After many tests, I found that sometimes the system cannot detect the sound card, which may because of the fastboot is not off in windows. If you soft-restart the system when fastboot is not off, the sound card may not be detected
+After many studies, I found that the problem of sound card failure after restarting is due to the fact that the HDA cannot be reset when the Windows system reboot. There is no solution at present. When I have time, I will release the Opencore Bootloader of the model to solve the problem.
