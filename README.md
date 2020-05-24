@@ -1,6 +1,6 @@
 # Hackintosh-ASUS-Flying-fortress-FXPRO-GL552VW
 这可以帮助您完美地运行macOS High Sierra & Mojave & Catalina（最高10.15.4）  
-您也可以使用它运行macOS 10.15.4或更高版本,感谢某大神的技术指导
+您也可以使用它运行macOS 10.15.4或更高版本
 
 This can help you run macOS High Sierra & Mojave & Catalina(10.15.4 maximum)perfectly.  
 You can also use it to run macOS 10.15.4 or higher future version,but the sound card driver may not work on these versions.
@@ -13,7 +13,7 @@ __If you have problems, contact me with jonesbak@outlook.com__
 该项目仅供技术交流，请勿用于商业用途，转载请注明来源及原作者，请尊重我的劳动，谢谢！  
 This project is only for technical communicating, please do not use it for commercial purposes, please indicate the source and original author for reprint, please respect my labor, thank you!
 
-## 电脑配置 & The configuration of my laptop
+## 电脑配置 & The hardware configuration of my laptop
 
 Hardware | Detail
 ---------|----------
@@ -27,10 +27,10 @@ Display	 | AUO TN 1080P
 TouchPad | ELAN 1000
 Sound    | Conexant 20751/2
 
-该项目包括Clover 5117版本（支持macOS Catalina）  
+该项目包括Clover v5.0 r5118（支持macOS Catalina）  
 我将启动等待时间设置成了2秒，如果你想用这个配置来安装macOS，你可能需要进入clover界面后，按“o”键，然后在boot-args中添加“-v”，这样你就可以获得详细的错误信息
 
-This project includes clover v5117.(macOS Catalina Supported)  
+This project includes clover v5.0 r5118.(macOS Catalina Supported)  
 I set the clover to wait for 2 second before booting automatically. If you want to use it for installing macOS,you may need to
 press the "o" key after entering the clover interface,and then add "-v" in boot args so that you can get detailed error information.
 
