@@ -59,6 +59,6 @@ If you want to use EGPU, you can only use macOS High Sierra and below,and then c
 Note: You can try to drive the GTX960m graphics card, but as far as I know, clover does not support Optimus technology for this graphics card, so it may not work
 
 ## 声卡问题 & Sound card issues
-经过我多次研究发现，重启后可能出现声卡失效的问题是由于Windows系统重新驱动时不能重置HDA导致的，目前无解，等我有空会发布该机型的opencore引导即可解决该问题  
+经过我多次研究发现，重启后可能出现声卡失效的问题是由于Windows系统重新启动时不能重置HDA导致的，目前无解，等我有空会发布该机型的opencore引导即可解决该问题  
 
 After many studies, I found that the problem of sound card failure after restarting is due to the fact that the HDA cannot be reset when the Windows system reboot. There is no solution at present. When I have time, I will release the Opencore Bootloader of the model to solve the problem.
