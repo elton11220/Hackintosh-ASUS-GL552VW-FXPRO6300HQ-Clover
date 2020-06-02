@@ -1,9 +1,9 @@
 # Hackintosh-ASUS-Flying-fortress-FXPRO-GL552VW
-这可以帮助您完美地运行macOS High Sierra & Mojave & Catalina（最高10.15.4）  
-您也可以使用它运行macOS 10.15.4或更高版本
+这可以帮助您完美地运行macOS High Sierra & Mojave & Catalina（最高10.15.5 - 19F101）  
+您也可以使用它运行macOS 10.15.5或更高版本
 
-This can help you run macOS High Sierra & Mojave & Catalina(10.15.4 maximum)perfectly.  
-You can also use it to run macOS 10.15.4 or higher future version,but the sound card driver may not work on these versions.
+This can help you run macOS High Sierra & Mojave & Catalina(10.15.5 - 19F101 maximum)perfectly.  
+You can also use it to run macOS 10.15.5 or higher future version,but the sound card driver may not work on these versions.
 
 ## 联系我 & Contact me
 __如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件jonesbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton__  
