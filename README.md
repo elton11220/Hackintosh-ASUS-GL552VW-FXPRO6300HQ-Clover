@@ -5,6 +5,19 @@
 This can help you run macOS High Sierra & Mojave & Catalina(10.15.5 - 19F101 maximum)perfectly.  
 You can also use it to run macOS 10.15.5 or higher future version,but the sound card driver may not work on these versions.
 
+## 注意 & Attention
+想要用这个EFI启动你的macOS，你需要做这几件事：
+  1.把你的UEFI固件版本升级为304版本
+  2.在UEFI设置中关闭Fast Boot, CSM Mode, Secure Boot
+  3.在UEFI中的Graphic Configuration菜单中把dvmt设置为256mb
+少了以上任意一条，你都无法启动系统或者某些驱动有问题
+
+To start your macOS with this EFI, you need to do a few things:
+   1. Upgrade your UEFI Firmware to version 304
+   2. Turn off Fast Boot, CSM Mode, Secure Boot in the UEFI settings
+   3. Set dvmt to 256mb in the Graphic Configuration menu in the UEFI
+Without any of the above, you cannot start the system or there are problems with some drivers
+
 ## 联系我 & Contact me
 __如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件jonesbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton__  
 __If you have problems, contact me with jonesbak@outlook.com__
