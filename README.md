@@ -1,9 +1,9 @@
-# Hackintosh-ASUS-Flying-fortress-FXPRO-GL552VW
-这可以帮助您完美地运行macOS High Sierra & Mojave & Catalina（最高10.15.5 - 19F101）  
-您也可以使用它运行macOS 10.15.5或更高版本
+# Hackintosh-ASUS-GL552VW-FXPRO6300HQ-Clover Bootloader Configuration
+这可以帮助您完美地运行macOS High Sierra & Mojave & Catalina（最高10.15.5 - 19F2200）  
+由于Clover引导器暂不支持macOS 10.16 Big Sur，所以我考虑近期推出该机型的OpenCore引导器配置文件
 
-This can help you run macOS High Sierra & Mojave & Catalina(10.15.5 - 19F101 maximum)perfectly.  
-You can also use it to run macOS 10.15.5 or higher future version,but the sound card driver may not work on these versions.
+This can help you run macOS High Sierra & Mojave & Catalina(10.15.5 - 19F2200 maximum)perfectly.  
+Because the Clover bootloader cannot boot macOS 10.16 Big Sur successfully, I am considering launching the OpenCore bootloader configuration file for this model recently.
 
 ## 注意 & Attention
 想要用这个EFI启动你的macOS，你需要做这几件事：  
@@ -19,31 +19,31 @@ To start your macOS with this EFI, you need to do a few things:
 Without any of the above, you cannot start the system or there are problems with some drivers  
 
 ## 联系我 & Contact me
-__如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件jonesbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton__  
+__如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件jonesbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton11220，YJHuaa__  
 __If you have problems, contact me with jonesbak@outlook.com__
 
 ## 关于转载 & About repost  
 该项目仅供技术交流，请勿用于商业用途，转载请注明来源及原作者，请尊重我的劳动，谢谢！  
 This project is only for technical communicating, please do not use it for commercial purposes, please indicate the source and original author for reprint, please respect my labor, thank you!
 
-## 电脑配置 & The hardware configuration of my laptop
+## 电脑配置 & The hardware configuration
 
 Hardware | Detail
 ---------|----------
 CPU      | Intel Core i5-6300HQ
 IGPU     | HD530
 EGPU     | Nvidia Geforce GTX960M(4G)
-Wifi     | Boradcom 94350(DW1820A)
+Wifi     | Boradcom 94350(DW1820A)/Atheros AW-NB182NF(AR9565 - the original wireless LAN adapter)
 SSD      | SAMSUNG MZNLF128HCHP-00004
 RAM      | SK HYNIX 8G*1 2133MHz
-Display	 | AUO TN 1080P
+Display	 | BOE NV156FHM-N65AUO(Original monitor B156HTN03.6 is supported)
 TouchPad | ELAN 1000
 Sound    | Conexant 20751/2
 
-该项目包括Clover v5.0 r5118（支持macOS Catalina）  
+该项目包括Clover v5.0 r5119（支持macOS Catalina）  
 我将启动等待时间设置成了2秒，如果你想用这个配置来安装macOS，你可能需要进入clover界面后，按“o”键，然后在boot-args中添加“-v”，这样你就可以获得详细的错误信息
 
-This project includes clover v5.0 r5118.(macOS Catalina Supported)  
+This project includes clover v5.0 r5119.(macOS Catalina Supported)  
 I set the clover to wait for 2 second before booting automatically. If you want to use it for installing macOS,you may need to
 press the "o" key after entering the clover interface,and then add "-v" in boot args so that you can get detailed error information.
 
