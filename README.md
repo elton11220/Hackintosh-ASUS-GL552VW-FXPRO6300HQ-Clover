@@ -36,7 +36,7 @@ EGPU     | Nvidia Geforce GTX960M(4G)
 Wifi     | Boradcom 94350(DW1820A)/Atheros AW-NB182NF(AR9565 - the original wireless LAN adapter)
 SSD      | SAMSUNG MZNLF128HCHP-00004
 RAM      | SK HYNIX 8G*1 2133MHz
-Display	 | BOE NV156FHM-N65AUO(Original monitor B156HTN03.6 is supported)
+Display	 | BOE NV156FHM-N65(Original monitor AUO B156HTN03.6 is supported)
 TouchPad | ELAN 1000
 Sound    | Conexant 20751/2
 
