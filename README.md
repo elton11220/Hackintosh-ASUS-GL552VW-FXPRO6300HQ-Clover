@@ -1,8 +1,8 @@
 # Hackintosh-ASUS-GL552VW-FXPRO6300HQ-Clover Bootloader Configuration
-这可以帮助您完美地运行macOS High Sierra & Mojave & Catalina（最高10.15.5 - 19F2200）  
+这可以帮助您完美地运行macOS High Sierra & Mojave & Catalina（最高10.15.6 - 19G2021）  
 由于Clover引导器暂不支持macOS 10.16 Big Sur，所以我考虑近期推出该机型的OpenCore引导器配置文件
 
-This can help you run macOS High Sierra & Mojave & Catalina(10.15.5 - 19F2200 maximum)perfectly.  
+This can help you run macOS High Sierra & Mojave & Catalina(10.15.6 - 19G2021 maximum)perfectly.  
 Because the Clover bootloader cannot boot macOS 10.16 Big Sur successfully, I am considering launching the OpenCore bootloader configuration file for this model recently.
 
 ## 注意 & Attention
@@ -19,7 +19,7 @@ To start your macOS with this EFI, you need to do a few things:
 Without any of the above, you cannot start the system or there are problems with some drivers  
 
 ## 联系我 & Contact me
-__如果你有问题，可以在百度贴吧联系我（YJHuaa）或给我发邮件jonesbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton11220，YJHuaa__  
+__如果你有问题，可以在百度贴吧联系我（绿胡子大叔）或给我发邮件jonesbak@outlook.com 如果你在某个黑苹果群遇见我也可以直接问我，昵称一般是Elton11220，YJHuaa__  
 __If you have problems, contact me with jonesbak@outlook.com__
 
 ## 关于转载 & About repost  
@@ -40,10 +40,10 @@ Display	 | BOE NV156FHM-N65(Original monitor AUO B156HTN03.6 is supported)
 TouchPad | ELAN 1000
 Sound    | Conexant 20751/2
 
-该项目包括Clover v5.0 r5119（支持macOS Catalina）  
+该项目包括Clover v5.0 r5122（支持macOS Catalina）  
 我将启动等待时间设置成了2秒，如果你想用这个配置来安装macOS，你可能需要进入clover界面后，按“o”键，然后在boot-args中添加“-v”，这样你就可以获得详细的错误信息
 
-This project includes clover v5.0 r5119.(macOS Catalina Supported)  
+This project includes clover v5.0 r5122.(macOS Catalina Supported)  
 I set the clover to wait for 2 second before booting automatically. If you want to use it for installing macOS,you may need to
 press the "o" key after entering the clover interface,and then add "-v" in boot args so that you can get detailed error information.
 
@@ -70,8 +70,3 @@ If you want to use EGPU, you can only use macOS High Sierra and below,and then c
 * [Nvidia WebDriver Download](https://www.tonymacx86.com/nvidia-drivers/)
 
 Note: You can try to drive the GTX960m graphics card, but as far as I know, clover does not support Optimus technology for this graphics card, so it may not work
-
-## 声卡问题 & Sound card issues
-经过我多次研究发现，重启后可能出现声卡失效的问题是由于Windows系统重新启动时不能重置HDA导致的，目前无解，等我有空会发布该机型的opencore引导即可解决该问题  
-
-After many studies, I found that the problem of sound card failure after restarting is due to the fact that the HDA cannot be reset when the Windows system reboot. There is no solution at present. When I have time, I will release the Opencore Bootloader of the model to solve the problem.
